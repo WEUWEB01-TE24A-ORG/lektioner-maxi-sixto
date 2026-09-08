@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Oswald:wght@200..700&display=swap');
+body{background-image: url(./claudio-testa--SO3JtE3gZo-unsplash.jpg);
+background-size: cover;
+}
+h1{font-family: "Oswald", sans-serif;
+color:black;
+font-size: 100px;
+margin-left: 300px;
+}
+h2{font-family: "Oswald", sans-serif;}
+p{ font-family: "Aguafina Script", cursive;
+background-color: #08412668;
+width: 1200px;
+padding: 30px;
+border-radius: 20px;
+}
+a{}
