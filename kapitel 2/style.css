@@ -2,26 +2,38 @@ Body {background-image: url(./bilder/oleg-demakov-bkIfm7X-LG8-unsplash.jpg);
     background-size: cover;
 }
 h1{
-    color: blue;
+    color: rgb(219, 13, 13);
     font-size: 50px;
     padding: 10px;
     margin-left: 450px;
 
 }
-p{width: 1200px;
-    padding: 30px;
-    border-radius: 20px;
-color: rgb(17, 236, 203);
-
+p{
+    width: 800px;
+color: rgb(241, 242, 244);
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(169, 169, 169, 0.757);
+padding: 30px;
+border-radius: 20px;
 }
-table{}
+table{
+    margin-left: 530px;
+}
 caption{ 
     font-size: 20px;
-padding: 10px;
- 
+
+ color: aliceblue;
+ background-color: rgba(63, 61, 61, 0.697);
 
 }
 
 tr{}
-td{}
-img{}
+td{
+    color: aliceblue;
+    background-color: rgba(169, 169, 169, 0.677);
+
+}
+img{
+    margin-left: 500px;
+}
