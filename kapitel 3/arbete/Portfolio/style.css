@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Edu+SA+Hand:wght@400..700&family=Merienda:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CA:wght@100..400&display=swap');
+
 /* Enkel CSS-reset */
+
 html {
     box-sizing: border-box;
 }
@@ -12,17 +15,34 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 img {
     max-width: 100%;
     height: auto;
+    text-align: center;
+}
+h1{
+     font-family: "Edu SA Hand", cursive;
+    text-align: center;
+    text-size-adjust: 50px;
+    padding-bottom: 15px;
+}
+h3{
+    font-family: "Playwrite CA", cursive;
+    text-align: center;
+}
+p{
+    font-family: "Cormorant", serif;
+    font-size: large;
+    padding: 10px;
 }
 /* Sidan */
 body{
-    background-color: blue;
+    background-color: #fff3b0;
 }
 .kontainer{
     margin-left: auto;
     margin-right: auto;
-    background-color: aliceblue;
+    background-color: #e09f3e;
     width: 900px;
     padding: 40px;
+    border-radius: 20px;
 
 }
 
@@ -30,15 +50,18 @@ body{
 .kolumner{
     gap: 40px;
    display: flex;
+    border-radius: 20px;
 }
 .rutor{
     width: 600px;
-    background-color: darkgrey;
+    background-color: #335c67;
     padding: 35px;
     gap: 25px;
     margin-bottom: 20px;
+     border-radius: 20px;
    }
 
    img{
     width: 75%;
+    margin-left: auto;
    }
