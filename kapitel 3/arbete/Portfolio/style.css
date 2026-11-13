@@ -65,3 +65,26 @@ body{
     width: 75%;
     margin-left: auto;
    }
+
+   /* Ruta Tabell */
+
+   caption{
+    font-size: larger;
+   }
+   table{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+   }
+   td{
+    margin-left: 20px;
+   }
+   .rutatab{
+    background-color: #335c67;
+    width: 390px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
